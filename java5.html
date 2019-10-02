@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title>OPERATOR STATEMENT KONTROL</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function tanya(){
+			var jawab = ""
+			var jawab = prompt("Anda Senang Bikin Homepage?")
+			var JAWAB = jawab.toUpperCase()
+			switch (JAWAB){
+				case "YA" : var tampil = "Sama dong saya juga"
+				break;
+				case "YUP" : var tampil = "Sama dong saya juga"
+				break;
+				case "TIDAK" : var tampil = "Iya euy bikin suntuk tuh"
+				break;
+				case "NGGAK" : var tampil = "Iya euy bikin suntuk tuh"
+				break;
+				default : var tampil = "Jawab dong ya/yup atau tidak/nggak"
+			}
+			alert(tampil)
+		}	
+	</script>
+	<b>HOBI</b>
+	<form>
+		<input type="button" value="Polling" onclick="tanya()">
+	</form>
+</body>
+</html>
